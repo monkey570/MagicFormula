@@ -2,12 +2,12 @@
 Python function for simply and quickly getting stocks off of the MagicFormulaInvesting website.
 
 
-1) The purpose of the MagicFormula function:
+### 1) The purpose of the MagicFormula function:
 
 The purpose of the MagicFormula function is to automatically retrieve the list of “magic formula” stocks off of the website: www.magicformulainvesting.com.
 
 
-2) How it works:
+### 2) How it works:
 
 The way the function works is by scraping page results after sending a post request (using the login information of a user’s personal account) to the Magic Formula website. It is dependent on the following four packages:
 pandas
@@ -16,7 +16,7 @@ BeautifulSoup
 requests
 
 
-3)  How it is used:
+### 3)  How it is used:
 
 df, filepath = get_stocks(self, email, password, minMarketCap=100, stocksNum=30)
 
