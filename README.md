@@ -18,7 +18,7 @@ The way the function works is by scraping page results after sending a post requ
 
 ## 3)  How it is used:
 
-***df, filepath*** = get_stocks(self, email, password, minMarketCap=100, stocksNum=30)
+### df, filepath = get_stocks(self, email, password, minMarketCap=100, stocksNum=30)
 
 The function requires a few parameters to begin scraping. It generally works smoothly and very quickly except if there are random internet-related or server-side-related issues that might cause a delay or an exception to be raised. The function returns a pandas dataframe and a path to the dataframe saved as a CSV file.
 
