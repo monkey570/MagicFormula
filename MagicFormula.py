@@ -1,4 +1,5 @@
-'''MIT License
+'''
+MIT License
 
 Copyright (c) 2018 Kadri Mufti
 
@@ -18,9 +19,10 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.'''
+SOFTWARE.
 
 
+'''
 
 import pandas as pd
 import datetime
@@ -30,7 +32,7 @@ import requests
 class MagicFormula:
 
     def __init__(self):
-        self.desc = "Class is MagicFormula for stocks data retrieval from the MagiFormula website."
+        self.desc = "Class is MagicFormula for stocks data retrieval from the MagicFormula website."
 
     def get_stocks(self, email, password, minMarketCap=100, stocksNum=30, compression=None):
         ##############################
